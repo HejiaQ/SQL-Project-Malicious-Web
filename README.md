@@ -1,4 +1,4 @@
-# Malicious Website Data Analysis (SQL + PowerBI)
+# Malicious Website Data Analysis (SQL + PowerBI + (tba) Classification)
 
 ## Project Introduction
 
@@ -9,4 +9,28 @@ This project aims to analyze data related to malicious website to discover poten
 
 https://www.kaggle.com/datasets/xwolf12/malicious-and-benign-websites
 
-## Questions of Interests & SQL Results
+## Metrics of Interests & SQL Results
+
+1. What is the mean, max, min, and variance of the number of special characters for benign websites and for malicious websites?
+
+2. What is the mean, max, min, and variance of the number of tcp packets exchanged for benign websites and for malicious websites?
+
+3. What is the mean, max, min, and variance of the number of DNS packets generated during the communication between the honeypot and the server for benign websites and for malicious websites?
+
+4. What are the top 3 server used for benign websites?
+
+5. What are the top 3 server used for malicious websites?
+
+6. What is the average of the total number of IPs connected to the honeypot, and how many website has that number above the average for benign website and for malicious website
+
+
+## Visualization (Power BI)
+
+1. Bar charts for distribution of website length for benign website and malicious website
+2. Box plots for number of special characters for benign website and malicious website
+3. Pie charts for server used for benign websites, malicious websites, and both
+4. Funnel charts for number of malicious website group by server's country
+5. A scatter plot for packets sent VS packets received for malicious and benign websites
+
+## TODO
+A machine learning model (classficiation model) can be used to predict whether a website is malicious or benign. 
