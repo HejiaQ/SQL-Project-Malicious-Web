@@ -23,11 +23,9 @@ https://www.kaggle.com/datasets/xwolf12/malicious-and-benign-websites
 ![alt text](<SQL Results/query_6.png>)
 
 ## Visualization (Power BI)
-1. Bar charts for distribution of website length for benign website and malicious website
-2. Box plots for number of special characters for benign website and malicious website
-3. Pie charts for server used for benign websites, malicious websites, and both
-4. Funnel charts for number of malicious website group by server's country
-5. A scatter plot for packets sent VS packets received for malicious and benign websites
+1. Stacked bar charts for server used for benign websites, malicious websites, and both
+2. Pie charts for number of malicious website group by server's country
+3. A scatter plot for special characters VS url length (mark the categories of websites)
 
 ## TODO
 A machine learning model (classficiation model) can be used to predict whether a website is malicious or benign. 
